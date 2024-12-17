@@ -7,7 +7,7 @@ db.sqlite3
 media/
 .venv
 /migrations/
-
+migrations/
 # System Files
 .DS_Store
 Thumbs.db
