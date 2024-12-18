@@ -17,3 +17,8 @@ Thumbs.db
 *.swp
 shop_app/migrations/
 core/migrations/
+
+
+*.jpg
+*.png
+*.jpeg
