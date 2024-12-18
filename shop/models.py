@@ -46,7 +46,7 @@ class Category(models.Model):
         Returns:
             str: The URL for the category's product list page
         """
-        return reverse("shop:product_list_by_category", args=[self.slug])
+        return reverse("shop:product_list_by_category", kwargs={'category_slug': self.slug})
     
 
 
