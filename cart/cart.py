@@ -129,7 +129,7 @@ class Cart:
             Decimal: The total cost of the cart items.
         """
         return sum(
-            item['price'] * item['quantity']
+            float(item['price']) * item['quantity']
             for item in self.cart.values()
         )
         
